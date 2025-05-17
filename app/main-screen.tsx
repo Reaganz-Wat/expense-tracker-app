@@ -1,12 +1,10 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-const MainScreen = () => {
+export default function MainScreen() {
   return (
     <View>
         <Text>Main Screen</Text>
     </View>
   )
 }
-
-export default MainScreen
