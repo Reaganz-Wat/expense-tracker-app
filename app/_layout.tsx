@@ -27,7 +27,10 @@ export default function RootLayout() {
         <Stack.Screen name="login" options={{ headerShown: false }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
-        <Stack.Screen name="main-screen" />
+        <Stack.Screen name="main-screen" options={{headerShown: false}}/>
+        <Stack.Screen name="word-game" options={{headerShown: false}}/>
+        <Stack.Screen name="forgot-password"/>
+        <Stack.Screen name="sign-up"/>
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

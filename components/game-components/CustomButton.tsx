@@ -7,7 +7,7 @@ type IconType = 'none' | 'check' | 'bell';
 // Props interface
 interface CustomButtonProps {
   label: string;
-  color: 'purple' | 'teal' | 'green' | 'red';
+  color: string;
   icon?: IconType;
   onPress?: () => void;
   width?: number;
