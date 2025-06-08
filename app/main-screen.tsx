@@ -114,11 +114,11 @@ const games: Game[] = [
     icon: "book-outline"
   },
   {
-    id: "memory-match",
-    title: "Memory Match",
-    description: "Test your memory by matching pairs of cards.",
+    id: "science-survival-quest",
+    title: "Science Survival Quest",
+    description: "Test your survival skills in a science-themed adventure!",
     image: require("@/assets/images/splash-icon.png"),
-    isAvailable: false,
+    isAvailable: true,
     color: "#5ECBC9", // Teal
     darkColor: "#2E6E6C",
     icon: "copy-outline"

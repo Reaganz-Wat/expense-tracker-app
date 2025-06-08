@@ -29,6 +29,8 @@ export default function RootLayout() {
         <Stack.Screen name="+not-found" />
         <Stack.Screen name="main-screen" options={{headerShown: false}}/>
         <Stack.Screen name="word-game" options={{headerShown: false}}/>
+        <Stack.Screen name="science-survival-quest" options={{headerShown: false}}/>
+        <Stack.Screen name="science-survival-quest-start" options={{headerShown: false}}/>
         <Stack.Screen name="forgot-password"/>
         <Stack.Screen name="sign-up"/>
       </Stack>
