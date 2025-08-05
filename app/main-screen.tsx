@@ -217,7 +217,7 @@ export default function MainScreen(): JSX.Element {
     <View style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Hi, Reagan</Text>
+        <Text style={styles.headerTitle}>Hello</Text>
         <TouchableOpacity style={styles.profileButton}>
           <Ionicons name="person-circle-outline" size={32} color="#6D4F77" />
         </TouchableOpacity>
